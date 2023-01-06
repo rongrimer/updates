@@ -1,0 +1,24 @@
+Linux Terminal
+from: https://www.freecodecamp.org/news/file-permissions-in-linux-chmod-command-explained/
+
+File permisions
+- chmod > change mode
+- chown > change ownership
+- chgrp > change group
+(This will let you change permission on file or directory)
+- user level permisions
+	u > Grant permission to a user
+	g > Grant permission to a group (A Group of users)
+	o > Grant permission to others (who do not come under either of the abouve)
+	*If this option is left empty, the permission will be applied to the logged-in user by default.
+- file level permissions
+	r > Grants read permission
+	w > Grants write permission
+	x > Grants excute permission
+	*These operatios need to be preceded with a '+' or '-' operator.
+		'+' indicates adding new permission
+		'-' indicates removing an existing permission
+
+$ chmod <operation> <File/Directory name>
+	ex. $ chmod +r sample.txt
+		*commands to add read permission to a file (sample.txt)
