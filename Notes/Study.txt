@@ -1,0 +1,55 @@
+Self hypnosis, You got this.
+It's impossible, but that's what makes it a worth challenge.
+Control your own mind.
+Start slowly and consistently.
+The more you fuck around, the more you going to find out.
+Stay hard.
+Just do it anyway.
+You're the man!
+
+resoruces:
+- cs50 > where it all starts and go beyond, general programming
+- fullstackopen > focused on web development
+- leetcode > practice solving coding problems from beginner to advanced
+- advent of code > yearly coding problems, good for practicing random code problems
+- TechwithTim > mutiple examples of pythons projects you can do
+- python documentation > it also has its own tutorial
+- github.com/karan/Projects > list of projects you can do with any programming language
+- inventwithpython.com/bigbookpython > list of projects you can do with python 
+
+
+Technologies to learn:
+- Linux: navigate, create, mv, rm, authorization access on files/directories
+- LAMP - a set of technologies used. A good goal to do and create. (Linux, Apache/Nginx [newer], MySQL, PHP/Python)
+- Python
+- Active Directory
+- Database: mysql (more suited with web based like data transactions, postgresql (more on data analysis, data warehousing, or used on complex queries) (relational, object oriented, hierarchical, network)
+- networking: fundamentals, routers, switched, cli, making scripts
+- excel: basic navigation and helps with database with organzing datasets
+- 
+
+from job posts:
+- Proficient in python with a focus on extracting information from HTML and other sources such as PDF – Selenium | Beautiful Soup | OCR (e.g., Textract, PDFMiner)
+- Proficient with RDBMS and writing SQL queries – MySQL | PostgreSnQL |SQLAlchemy
+
+
+
+
+1. Get your life in order
+2. Be strongest, honorable, best version of yourself
+3. Dont be a bad person, be a good person
+4. Tell the truth
+5. Protect the people that you care about
+6. Be polite to everybody
+7. Make as much money as you can
+8. Go to the gym, get in good shape
+9. Find other guys who are on the same mission as you
+-  this will make you not lose your mind and in control of yourself and life.
+
+
+Sublime Text packages:
+- package control: to install and remove packages
+- fileicon
+- fontcycler
+- webfont: fonts selection from fontstorage.com
+	- intially install the font that's missing from the OS by downloading and opening the .ttf (truetype font file) and then installing it
