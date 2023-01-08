@@ -7,7 +7,7 @@ Stay hard.
 Just do it anyway.
 You're the man!
 
-resoruces:
+Resoruces:
 - cs50 > where it all starts and go beyond, general programming
 - fullstackopen > focused on web development
 - leetcode > practice solving coding problems from beginner to advanced
@@ -28,10 +28,14 @@ Technologies to learn:
 - excel: basic navigation and helps with database with organzing datasets
 - 
 
+Projects:
+- Price tracker (can also be done on raspberry pi) on products you like to get live price changes
+- Stock tracker (can use selenium to control a headless browser with an API, also compatible with javascript)  
+
+
 from job posts:
 - Proficient in python with a focus on extracting information from HTML and other sources such as PDF – Selenium | Beautiful Soup | OCR (e.g., Textract, PDFMiner)
 - Proficient with RDBMS and writing SQL queries – MySQL | PostgreSnQL |SQLAlchemy
-
 
 
 
@@ -53,3 +57,17 @@ Sublime Text packages:
 - fontcycler
 - webfont: fonts selection from fontstorage.com
 	- intially install the font that's missing from the OS by downloading and opening the .ttf (truetype font file) and then installing it
+
+
+Function vs Method
+- A method is on an object or is static in class.
+- A function is independent of any object (and outside of any class).
+	- For Java and C#, there are only methods.
+	- For C, there are only functions.
+	- For C++ and Python it would depend on whether or not you're in a class.
+	But in basic English:
+		> Function: Standalone feature or functionality.
+		> Method: One way of doing something, which has different approaches or methods, but related to the same aspect (aka class).
+
+Nesting "if" statements is bad.
+- might as well just create two functions 
