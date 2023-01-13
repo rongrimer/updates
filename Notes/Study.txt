@@ -15,7 +15,8 @@ Resoruces:
 - TechwithTim > mutiple examples of pythons projects you can do
 - python documentation > it also has its own tutorial
 - github.com/karan/Projects > list of projects you can do with any programming language
-- inventwithpython.com/bigbookpython > list of projects you can do with python 
+- inventwithpython.com/bigbookpython > list of projects you can do with python
+- fun stuff (turing complete and exapunks on Steam)
 
 
 Technologies to learn:
