@@ -7,6 +7,9 @@ Stay hard.
 Just do it anyway, it's a challenge!
 You're the man!
 
+Reminder:
+https://www.twitch.tv/ottomated/clip/AltruisticTangentialHawkBudStar
+
 Resoruces:
 - cs50 > where it all starts and go beyond, general programming
 - fullstackopen > focused on web development
