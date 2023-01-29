@@ -17,7 +17,13 @@ Resoruces:
 - github.com/karan/Projects > list of projects you can do with any programming language
 - inventwithpython.com/bigbookpython > list of projects you can do with python
 - fun stuff (turing complete and exapunks on Steam)
-
+- Datasets
+	> Calgary https://data.calgary.ca/browse
+	> Alberta https://open.alberta.ca/dataset
+	> Calgary Transit https://data.calgary.ca/browse?tags=lrt&utf8=%E2%9C%93
+	> Canada https://open.canada.ca/en/open-data
+	> APIs for scholarly resources at U0fA https://www.library.ualberta.ca/about-us/open-data/api
+	
 
 Technologies to learn:
 - Linux: navigate, create, mv, rm, authorization access on files/directories
