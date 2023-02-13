@@ -3,4 +3,60 @@ https://www.techopedia.com/6/33455/networks/how-to-build-network-architecture-th
 basics to learn cyber security
 
 Cisco packet tracer for basic network simulation
-*GNS3 for actual use of Cisco IOS image  
+*GNS3 for actual use of Cisco IOS image
+
+
+
+
+
+
+
+
+
+
+
+Terminologies and technology comparisons:
+
+dedicated vs bare metal server > 
+
+hsrp (hot standby routing protocol) and vrrp (virtual redundancy routing protocol) 
+svi (switch virtual interface)
+
+vrf (virtual routing and forwarding) - mostly used on mpls, can also create vpn tunnels for specific or solely dedicated to a single network or client/host.
+    - allows for virtual creation of multiple routes instate/inside on one physical device
+    - allows users to simultaneously manage multiple routing tables
+    - can be used for MP BGP and MPLS deployments
+    - multiple vpns for customers can use overlapping ip addresses without conflict
+    - user may segement network paths without multiple routers, improving network functionality
+
+mpls (multiprotocol label switching) > think of a toll gated road when compared to sd-wan
+    -
+
+sd-wan (sofware defined - wide area network) > think of using the normal/public roads [public infrastructure like WAN] when compared to mpls
+    -
+
+bgp (boder gateway protocol)
+    - ibgp
+    - ebgp
+    - mp bgp
+
+eigrp (enhanced interior gateway routing protocol) > proprietary to Cisco
+    - igrp
+
+ospf (open shortest path first)
+    - ospfv3
+
+is-is (intermediate system to intemediate system)
+    - 
+
+QoS (Quality of Service) > operates at layer 3
+    - dscp
+    - policing and shaping
+    - sla
+    - cos > operates at layer 2 which is 802.1Q vlan
+
+voip (voice over internet protocol)
+
+
+
+

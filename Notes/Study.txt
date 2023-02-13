@@ -40,7 +40,8 @@ Technologies to learn:
 
 Projects:
 - Price tracker (can also be done on raspberry pi) on products you like to get live price changes
-- Stock tracker (can use selenium to control a headless browser with an API, also compatible with javascript)  
+- Stock tracker (can use selenium to control a headless browser with an API, also compatible with javascript)
+
 
 
 from job posts:
