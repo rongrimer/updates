@@ -22,3 +22,6 @@ File permisions
 $ chmod <operation> <File/Directory name>
 	ex. $ chmod +r sample.txt
 		*commands to add read permission to a file (sample.txt)
+
+
+*UNIX shell scripting
