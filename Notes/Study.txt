@@ -84,7 +84,11 @@ Nesting "if" statements is bad.
 - might as well just create two functions
 
 for loop:
+https://www.youtube.com/shorts/VXuhATq7hpo
 
 if statements:
 
 **keep in mind about the built-in python functions (ex. [extend()]) where you can use these functions instead of control flow statements like for loop, while loop, if/else statements, etc.
+
+
+
