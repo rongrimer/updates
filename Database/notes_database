@@ -1,0 +1,5 @@
+2 types of Database Management System (DMS)
+    - Relational (RDMS) and non relational (non-RDMS)
+
+RDMS stores data in distinct tables (with rows and Columns) where it can be accessed, reassemble/reorganize in different ways under a user-defined tables.
+
