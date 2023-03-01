@@ -7,6 +7,10 @@ Stay hard.
 Just do it anyway, it's a challenge!
 You're the man!
 
+- Try a method that works for you.
+	> if it works, stick to that method while it works
+	> if it doesn't work, set it aside for a while and try a different method  
+
 I don't know when this journey will come to an end.. but it doesn't worry me.
 
 Reminder:
@@ -43,6 +47,7 @@ Technologies to learn:
 Projects:
 - Price tracker (can also be done on raspberry pi) on products you like to get live price changes
 - Stock tracker (can use selenium to control a headless browser with an API, also compatible with javascript)
+- Personal project
 
 
 
