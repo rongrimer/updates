@@ -103,3 +103,12 @@ From twitch: TimeEnjoyed
 Shivan_Si: API is like driving a car. You only need to know the steering wheel and the gas pedal etc. You don't need to know how internal combustion engine works.
  
 rawoke083: Django is your "Doorman With The Clipboard": He decides who goes in and get an armband(cookie) for the party.
+
+
+
+
+Terms:
+- Cache
+- Hashmap
+- Load Balancing
+- Sharding
