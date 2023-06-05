@@ -1,0 +1,105 @@
+#Here is a simple implementation of a two-player chess game in Python, using the chess library:
+
+import chess
+
+def play_chess():
+    # create a new chess board
+    board = chess.Board()
+
+    while not board.is_game_over():
+        # print the current board state
+        print(board)
+
+        # get the player's move
+        move = input("Enter your move (e.g. e2e4): ")
+
+        # try to make the move
+        try:
+            board.push_san(move)
+        except ValueError:
+            print("Invalid move, try again")
+            continue
+
+    # print the final board state
+    print(board)
+    
+    # print the game result
+    result = board.result()
+    print("Game over, result: " + result)
+    
+if __name__ == '__main__':
+    play_chess()
+
+
+#This implementation uses the chess library, which provides a rich set of functions and classes for working with chess games. The play_chess() function creates a new chess board and then enters a loop where each player is prompted to enter their move. The board.push_san(move) method is used to make the move on the board, and if the move is invalid, an error message is printed and the player is prompted to try again. The game continues until it is over, at which point the final board state and result are printed.
+
+#Note that this implementation does not include any advanced features, such as checking for checkmate or stalemate, handling castling or en passant captures, or implementing the rules for promotion. These features could be added by extending the implementation with additional logic and validation.
+
+#------------------------------------
+
+#Here is an updated implementation of the two-player chess game in Python, using the python-chess library and including features such as checking for checkmate and stalemate, handling castling, and en passant captures:
+
+import chess
+
+def play_chess():
+    # create a new chess board
+    board = chess.Board()
+
+    while not board.is_game_over():
+        # print the current board state
+        print(board)
+
+        # get the player's move
+        move = input("Enter your move (e.g. e2e4): ")
+
+        # try to make the move
+        try:
+            board.push_san(move)
+        except ValueError:
+            print("Invalid move, try again")
+            continue
+
+        # check for checkmate or stalemate
+        if board.is_checkmate():
+            print("Checkmate! Game over.")
+            break
+        elif board.is_stalemate():
+            print("Stalemate! Game over.")
+            break
+
+        # handle castling
+        if move == "O-O":
+            if board.turn == chess.WHITE:
+                board.push(chess.Move.from_uci("e1g1"))
+            else:
+                board.push(chess.Move.from_uci("e8g8"))
+        elif move == "O-O-O":
+            if board.turn == chess.WHITE:
+                board.push(chess.Move.from_uci("e1c1"))
+            else:
+                board.push(chess.Move.from_uci("e8c8"))
+
+        # handle en passant captures
+        if board.is_en_passant(chess.Move.from_uci(move)):
+            ep_square = board.ep_square
+            if board.turn == chess.WHITE:
+                board.remove_piece_at(ep_square - 8)
+            else:
+                board.remove_piece_at(ep_square + 8)
+
+    # print the final board state
+    print(board)
+    
+    # print the game result
+    result = board.result()
+    print("Game over, result: " + result)
+
+if __name__ == '__main__':
+    play_chess()
+
+#This implementation uses the python-chess library, which provides a more robust set of functions and classes for working with chess games. The play_chess() function creates a new chess board and then enters a loop where each player is prompted to enter their move. The board.push_san(move) method is used to make the move on the board, and if the move is invalid, an error message is printed and the player is prompted to try again.
+
+#The implementation also includes logic for checking for checkmate or stalemate, handling castling, and en passant captures. If a move results in a checkmate or stalemate, the game is over and the result is printed. Castling is handled by checking if the move is a kingside or queenside castle and then making the appropriate move on the board. En passant captures are handled by checking if the move is an en passant capture and then removing the appropriate pawn from the board.
+
+#Note that this implementation still does not include more advanced features, such as the rules for promotion, threefold repetition, or the 50-move rule. These features could be added by extending the implementation with additional logic and validation.
+
