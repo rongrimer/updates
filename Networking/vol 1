@@ -1,0 +1,19 @@
+Chapter 20: Implementing OSPF
+- OSPF DR and BDR Election
+    > DR - Designated Router, BDR - Backup Designated Router
+- high priority value (range of 0-255) will be the DR and the 2nd highest will be the BDR
+    > the default priority is 1
+    > a priority of 0 on an interface of the router means it will never be elected as DR or BDR. In this case, it will be DROTHER.
+*- DR/BDR election process is per multi-access segment/network (Ethernet interface which can include a switch) not per area (ospf area)
+    > serial interfaces are considered a point-to-point inteface
+- to see the if OSPF has been configured and if there are any OSPF neighbors:
+    - R1# show ip ospf neighbor
+        > this will show neighbors for OSPF by interfaces, priority, state (DR, BDR, or DROTHER which means they are neither DR or BDR).
+- to manipulate the DR and BDR election, you can change the priority value
+    - R1(config)#interface fastEthernet 0/0
+      R1(config-if)# ip ospf priority 252 
+- for the changes to take effect, we need to reset the OSPF neigbor adjancencies (on each router where OSPF is configured) so that we can elect the new DR and BDR.
+    - R1#clear ip ospf process
+      Reset ALL OSPF processes? [no]: yes
+- you can verify if the DR and BDR election changed by looking into the OSPF neighbor command.
+    - R1# show ip ospf neighbor

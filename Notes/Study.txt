@@ -18,6 +18,7 @@ https://www.twitch.tv/ottomated/clip/AltruisticTangentialHawkBudStar
 
 Resoruces:
 - cs50 > where it all starts and go beyond, general programming
+- freecodecamp > more guides, curriculums, and all other programming related stuff
 - fullstackopen > focused on web development
 - leetcode > practice solving coding problems from beginner to advanced
 - advent of code > yearly coding problems, good for practicing random code problems
@@ -26,6 +27,7 @@ Resoruces:
 - github.com/karan/Projects > list of projects you can do with any programming language
 - inventwithpython.com/bigbookpython > list of projects you can do with python
 - fun stuff (turing complete and exapunks on Steam)
+- Python/CS book > https://runestone.academy/ns/books/published/thinkcspy/index.html
 - Datasets
 	> Calgary https://data.calgary.ca/browse
 	> Alberta https://open.alberta.ca/dataset
@@ -97,5 +99,16 @@ if statements:
 
 **keep in mind about the built-in python functions (ex. [extend()]) where you can use these functions instead of control flow statements like for loop, while loop, if/else statements, etc.
 
+From twitch: TimeEnjoyed
+Shivan_Si: API is like driving a car. You only need to know the steering wheel and the gas pedal etc. You don't need to know how internal combustion engine works.
+ 
+rawoke083: Django is your "Doorman With The Clipboard": He decides who goes in and get an armband(cookie) for the party.
 
 
+
+
+Terms:
+- Cache
+- Hashmap
+- Load Balancing
+- Sharding
